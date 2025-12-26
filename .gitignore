@@ -21,4 +21,10 @@ logs
 # Local env files
 .env
 .env.*
-!.env.example
+!.env.sample
+
+# Visual Code
+.vscode
+
+# Pm2
+ecosystem.config.cjs
