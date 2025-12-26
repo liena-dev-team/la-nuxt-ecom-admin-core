@@ -1,3 +1,4 @@
+import { useRequestHeaders } from '#app';
 
 export const useApiFetch = async (url, opts) => {
 	const headers = useRequestHeaders(['cookie'])
@@ -17,7 +18,7 @@ export const useApiFetch = async (url, opts) => {
 					}]
 				}
 			}
-	
+
 			console.log("Fetch Catch Error:");
 			console.log(error);
 		});
@@ -27,7 +28,7 @@ export const useApiFetch = async (url, opts) => {
 		console.log("Fetch Error:");
 		console.log(e);
 	}
-	
+
 	return null;
-	
+
 };
