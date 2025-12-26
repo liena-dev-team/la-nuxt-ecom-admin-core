@@ -1,13 +1,13 @@
-node_modules
-.nuxt
-dist
-*.log
+# node_modules
+# .nuxt
+# dist
+# *.log
 *.env
-*.local
-coverage
+# *.local
+# coverage
 .idea
 .vscode
-.DS_Store
+# .DS_Store
 .git
 .gitignore
 README.md
