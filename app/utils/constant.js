@@ -1,10 +1,12 @@
 
+// Application Environment Mode
 export const ENVIRONMENT = {
 	DEV: "dev",
 	TEST: "test",
 	LIVE: "live",
 };
 
+// Application Environment Mode
 export const ENVIRONMENT_OPTIONS = [
 	{
 		title: "DEV",
@@ -131,9 +133,9 @@ export const FIELD_SORT = {
 	DESCENDING: "DESC",
 };
 
-// /**
-//  * FIELD TREE
-//  */
+/**
+ * FIELD TREE
+ */
 export const FIELD_TREE = {
 	SELECT_TYPE_NONE: "none",
 	SELECT_TYPE_LEAF: "leaf",
@@ -193,9 +195,3 @@ export const CARD_SECTION_POSITION = {
 };
 
 export const STRING_VALUES_SEPERATOR = "|";
-
-// Cache Types
-export const CACHE_TYPE = {
-	STATIC: "static",
-	CONFIG: "config"
-};

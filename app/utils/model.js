@@ -1,4 +1,6 @@
 
+
+
 const DEFAULT_SORT_CODE = "id";
 const DEFAULT_PAGINATION_PAGE = 1;
 const DEFAULT_PAGINATION_SIZE = 50;
@@ -114,3 +116,20 @@ export class FilterRequest {
 	}
 }
 
+// System Config Type
+export const SYSTEM_CONFIG_TYPE = {
+	TAB: "tab",
+	SECTION: "section",
+	GROUP: "group",
+	FIELD: "field",
+};
+
+/**
+ * Form
+ */
+export const FORM_MESSAGE_TYPE = {
+	ERROR: "error",
+	SUCCESS: "success",
+	INFO: "info",
+	WARNING: "warning"
+};

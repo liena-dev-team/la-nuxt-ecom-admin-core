@@ -17,7 +17,7 @@ export const useApiFetch = async (url, opts) => {
 					}]
 				}
 			}
-
+	
 			console.log("Fetch Catch Error:");
 			console.log(error);
 		});
@@ -27,7 +27,7 @@ export const useApiFetch = async (url, opts) => {
 		console.log("Fetch Error:");
 		console.log(e);
 	}
-
+	
 	return null;
-
+	
 };
